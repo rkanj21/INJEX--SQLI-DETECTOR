@@ -92,6 +92,4 @@ Integrating with web application firewalls
 Conclusion
 This project demonstrates how Natural Language Processing and Machine Learning can be applied to improve web security by detecting SQL and command injection attacks. By analyzing the structure and patterns of user inputs the system provides an intelligent layer of protection against malicious queries and enhances the safety of web applications.
 
-Author
-Final Year Project
-Computer Science Engineering
+
